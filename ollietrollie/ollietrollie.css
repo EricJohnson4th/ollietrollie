@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+	text-align: left;
+  }
+  
+body {
+	font-size: 16px;
+	line-height: 32px;
+	color: #333;
+  }
+
+video-link {
+	color: #972A2C;
+}
+
+div-vid {
+	max-height: 740x !important;
+	padding: 0px !important;
+	overflow: hidden;
+	position: relative;
+	background-color: aqua;
+}
+ 
+video {
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+	  background-color: red
+}
+
+header {
+	text-align: center;
+	padding: 0px;
+	margin-bottom: 0px;
+	color: #333;
+	background: #fff;
+	width: 100%; 
+	height: auto;
+  }
+  
+section {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #FFA500;
+  }
+  
+#Stairs {
+	float: left;
+	width: 16.6%;
+	color: #000;
+	background: #eee;
+	height: 100%;
+  }
+
+#Ledges {
+	float: left;
+	width: 16.6%;
+	color: #000;
+	background: #fff;
+	height: 100%;
+  }
+
+#Rails {
+	float: left;
+	width: 16.6%;
+	color: #000;
+	background: #eee;
+	height: 100%;
+  }
+
+#Gaps {
+	float: left;
+	width: 16.6%;
+	color: #000;
+	background: #fff;
+	height: 100%;
+  }
+
+#Parks {
+	float: left;
+	width: 16.6%;
+	color: #000;
+	background: #eee;
+	height: 100%;
+  }
+  
+#Transitions {
+	float: left;
+	width: 16.6%;
+	color: #000;
+	background: #fff;
+	height: 100%;
+  }
+  
+ 
+ #full {
+	width: 100%;
+	overflow: auto;
+	clear: both;
+	color: #fff;
+	background: #394549;
+  }
+  
+ #division {
+	padding: 20px;
+	margin-top: 20px;
+	background: #214fb3;
+  }
+  
+  aside {
+	float: left;
+	width: 33%;
+	height: 200px;
+	padding: 20px;
+	margin-left: 30px;
+	text-decoration-color: white;
+	background: #a6b747;
+	border: 1px solid #eee;
+  }
+  
+  footer {
+	padding: 20px;
+	clear: both;
+	background: #FFA500;
+  }
+
+@media screen and (min-width: 980px) {
+
+}
+  
